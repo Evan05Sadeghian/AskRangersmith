@@ -1,0 +1,218 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+	<title>Ask Ranger Smith</title>
+	<style>
+		header {
+			background: url(https://pbs.twimg.com/media/E5YVbA_XEAIzDav.jpg);
+			background-size: cover;
+			background-position: center;
+			min-height: 1000px;
+		}
+
+		.section {
+			padding-top: 4vw;
+			padding-bottom: 4vw;
+		}
+
+		.tabs .indicator {
+			background-color: royalblue;
+		}
+
+		.tabs .tab a:focus,
+		.tabs .tab a:focus.active {
+			background: transparent;
+		}
+
+		@media screen and (max-width: 670px) {
+			header {
+				min-height: 500px;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+	<!--------------------------Nav Bar Begins---------------------------------------->
+	<header>
+		<nav class="nav-wraper #1565c0 blue darken-3">
+			<div class="container">
+				<a href="#" class="brand-logo">Ask Ranger Smith</a>
+				<a href="#" class="sidenav-trigger" data-target="mobile-links">
+					<i class="material-icons">menu</i>
+				</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#Discover">Discover</a></li>
+					<li><a href="#About">About Me</a></li>
+					<li><a href="#Connect With Us">Connect With Us</a></li>
+				</ul>
+			</div>
+			<ul class="sidenav grey lighten-3" id="mobile-links">
+				<li><a href="#Discover">Discover</a></li>
+				<li><a href="#About">About Me</a></li>
+				<li><a href="#Connect With Us">Connect With Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!--------------------------------Nav Bar Ends-------------------------------------------->
+	<!--------------------------------photo / grid---------------------------------------->
+	<section class="container section" id="photos">
+		<div class="row">
+			<div class="col s12 l4">
+				<img src="https://tul.imgix.net/content/article/kathmandu-header.jpg?auto=format,compress&w=1200&h=630&fit=crop"
+					alt="hike" class="responsive-img materialboxed" />
+			</div>
+			<div class="col s12 l6 offset-l1">
+				<h2 class="#1565c0 blue-text text-darken-3">Take A Hike</h2>
+				<p>
+					Lorem isum dolor sit amet, consectetur adipiscing elit. Vestibulum
+					at lacus congue, suscipit elit nec, tincidunt orci.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12 l4 push-l7 offset-l1">
+				<img src="https://lp-cms-production.imgix.net/2019-06/34a010e94a72c9452575d4381953f77b7d8551f5877131d19d4eed46dc15464f.jpg?auto=format&fit=crop&ixlib=react-8.6.4&h=520&w=1312"
+					alt="Two Elk fighting" class="responsive-img materialboxed" />
+			</div>
+			<div class="col s12 l6 pull-l5 right-align offset-l1">
+				<h2 class="#1565c0 blue-text text-darken-3">Wildlife</h2>
+				<p>
+					Lorem isum dolor sit amet, consectetur adipiscing elit. Vestibulum
+					at lacus congue, suscipit elit nec, tincidunt orci.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12 l4">
+				<img src="https://miro.medium.com/max/720/1*G5k-A91MlXMG7lfW6cffkA.jpeg"
+					alt="Theodore Roosevelt and John Muir" class="responsive-img materialboxed" />
+			</div>
+			<div class="col s12 l6 offset-l1">
+				<h2 class="#1565c0 blue-text text-darken-3">History</h2>
+				<p>
+					Lorem isum dolor sit amet, consectetur adipiscing elit. Vestibulum
+					at lacus congue, suscipit elit nec, tincidunt orci.
+				</p>
+			</div>
+		</div>
+	</section>
+	<!------------------------------------------Grid / Photos Ends------------------------------------------------->
+	<!---------------------------------------------Parallax Begins--------------------------------------------------->
+	<div class="parallax-container">
+		<div class="parallax">
+			<img src="https://i.natgeofe.com/n/08a290b9-36dc-4dee-a75e-a1af937cdf3b/woman-on-sequoia.jpg"
+				alt="woman sitting on redwood" class="responsive-img" />
+		</div>
+	</div>
+	<!----------------------------------------------------End Parallax---------------------------------------------->
+	<!------------------------------------------------------------Search Begins--------------------------------------------->
+	<br />
+	<nav class="secton container">
+		<div class="nav-wrapper #1565c0 blue darken-2">
+			<form>
+				<div class="input-field">
+					<input id="userNameInput" type="search" required>
+					<label class="label-icon" for="search"><i class="material-icons">search</i></label>
+					<i class="material-icons">close</i>
+					<input id="search" type="submit" class="btn #2196f3 blue waves-effect waves-light">
+				</div>
+			</form>
+		</div>
+	</nav>
+	<!------------------------------------------------Search Ends------------------------------------------------>
+	<!---------------------------------------------------Tabs Begins--------------------------------------------->
+	<br />
+	<section class="container section" id="Discover">
+		<!--div class="row"-->
+		<!--div class="col s12 l4"-->
+		<h2 class="#1565c0 blue-text text-darken-3">Discover</h2>
+		<p id="discoverTab">
+			Lorem isum dolor sit amet, consectetur adipiscing elit. Vestibulum
+			at lacus congue, suscipit elit nec, tincidunt orci.
+		</p>
+		</div>
+		<div class="col s12 l6 offset-l2">
+			<ul class="tabs">
+				<li class="tab col s6">
+					<a href="#info" class="#1565c0 blue-text text-darken-3">INFO</a>
+				</li>
+				<li class="tab col s6">
+					<a href="#alerts" class="#1565c0 blue-text text-darken-3">ALERTS</a>
+				</li>
+			</ul>
+			<div class="col s12" id="info">
+				<p class="flow-text #1565c0 blue-text text-darken-3">INFO</p>
+				<p id="infoTab">
+					Lorem isum dolor sit amet, consectetur adipiscing elit. Vestibulum
+					at lacus congue, suscipit elit nec, tincidunt orci.
+					Lorem isum dolor sit amet, consectetur adipiscing elit. Vestibulum
+					at lacus congue, suscipit elit nec, tincidunt orci.
+				</p>
+			</div>
+			<div class="col s12" id="alerts">
+				<p class="flow-text #1565c0 blue-text text-darken-3">ALERTS</p>
+				<p id="alertsTab">
+
+				</p>
+			</div>
+		</div>
+	</section>
+	<!---------------------------------------------Tabs Ends--------------------------------------------------->
+	<!----------------------------------------------------Parallax Begins---------------------------------------->
+	<div class="parallax-container">
+		<div class="parallax">
+			<img src="https://i.redd.it/w9191s3cj1x01.jpg" alt="Anicent Bristlecone Tree with Mountain range bacground"
+				class="responsive-img" />
+		</div>
+	</div>
+	<!-----------------------------------------------Parallax Ends----------------------------------------------------->
+	<!--------------------------------------------------Footer Begins-------------------------------------------------------------->
+	<footer class="page-footer #1565c0 blue darken-3">
+		<div class="container">
+			<div class="row">
+				<div class="col s12 l6">
+					<h5 id="About">About Me</h5>
+					<p>Lorem isum dolor sit amet, consectetur adipiscing elit. Vestibulum
+						at lacus congue, suscipit elit nec, tincidunt orci.</p>
+					<p>Lorem isum dolor sit amet, consectetur adipiscing elit. Vestibulum
+						at lacus congue, suscipit elit nec, tincidunt orci.</p>
+				</div>
+				<div class="col s12 l4 offset-l2">
+					<h5 id="Connect With Us">Connect With Us</h5>
+					<ul>
+						<li><a href="#" class="white-text">Facebook</a></li>
+						<li><a href="#" class="white-text">Instagram</a></li>
+						<li><a href="#" class="white-text">Twitter</a></li>
+						<li><a href="#" class="white-text">Email</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright #1565c0 blue-text text-darken-3 white">
+			<div class="container center-align">&copy; 2021 Ask Ranger Smith</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(".sidenav").sidenav();
+			$(".materialboxed").materialbox();
+			$(".parallax").parallax();
+			$('.tabs').tabs();
+		});
+	</script>
+	<script src="./index.js"></script>
+</body>
+
+</html>
