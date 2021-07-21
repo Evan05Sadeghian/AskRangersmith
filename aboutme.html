@@ -1,138 +1,168 @@
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!--Import Google Icon Font-->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<!-- Compiled and minified CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+		/>
+		<title>Ask Ranger Smith</title>
+		<style>
+			.section {
+				padding-top: 4vw;
+				padding-bottom: 4vw;
+			}
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
-    <title>Ask Ranger Smith</title>
-    <style>
-        .section {
-            padding-top: 4vw;
-            padding-bottom: 4vw;
-        }
+			.tabs .indicator {
+				background-color: royalblue;
+			}
 
-        .tabs .indicator {
-            background-color: royalblue;
-        }
+			.tabs .tab a:focus,
+			.tabs .tab a:focus.active {
+				background: transparent;
+			}
 
-        .tabs .tab a:focus,
-        .tabs .tab a:focus.active {
-            background: transparent;
-        }
+			@media screen and (max-width: 670px) {
+				header {
+					min-height: 500px;
+				}
+			}
+		</style>
+	</head>
 
-        @media screen and (max-width: 670px) {
-            header {
-                min-height: 500px;
-            }
-        }
-    </style>
+	<body>
+		<!--------------------------Nav Bar Begins---------------------------------------->
+		<header>
+			<nav class="nav-wraper #1565c0 blue darken-3">
+				<div class="container">
+					<a href="./index.html" class="brand-logo">Ask Ranger Smith</a>
+					<a href="#" class="sidenav-trigger" data-target="mobile-links">
+						<i class="material-icons">menu</i>
+					</a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="./index.html">Discover</a></li>
+						<li><a href="#About">About Me</a></li>
+						<li><a href="#Connect With Us">Connect With Us</a></li>
+					</ul>
+				</div>
+				<ul class="sidenav grey lighten-3" id="mobile-links">
+					<li><a href="./index.html">Discover</a></li>
+					<li><a href="#About">About Me</a></li>
+					<li><a href="#Connect With Us">Connect With Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!--------------------------------Nav Bar Ends-------------------------------------------->
+		<!--------------------------------photo / grid---------------------------------------->
 
-</head>
+		<div class="parallax-container">
+			<div class="parallax">
+				<img
+					src="https://i.natgeofe.com/n/08a290b9-36dc-4dee-a75e-a1af937cdf3b/woman-on-sequoia.jpg"
+					alt="woman sitting on redwood"
+					class="responsive-img"
+				/>
+			</div>
+		</div>
 
-<body>
-    <!--------------------------Nav Bar Begins---------------------------------------->
-    <header>
-        <nav class="nav-wraper #1565c0 blue darken-3">
-            <div class="container">
-                <a href="#" class="brand-logo">Ask Ranger Smith</a>
-                <a href="#" class="sidenav-trigger" data-target="mobile-links">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#Discover">Discover</a></li>
-                    <li><a href="#About">About Me</a></li>
-                    <li><a href="#Connect With Us">Connect With Us</a></li>
-                </ul>
-            </div>
-            <ul class="sidenav grey lighten-3" id="mobile-links">
-                <li><a href="#Discover">Discover</a></li>
-                <li><a href="#About">About Me</a></li>
-                <li><a href="#Connect With Us">Connect With Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!--------------------------------Nav Bar Ends-------------------------------------------->
-    <!--------------------------------photo / grid---------------------------------------->
+		<br />
+		<section class="container section" id="Discover">
+			<div class="row">
+				<img class="responsive-img col s4" />
 
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="https://i.natgeofe.com/n/08a290b9-36dc-4dee-a75e-a1af937cdf3b/woman-on-sequoia.jpg"
-                alt="woman sitting on redwood" class="responsive-img" />
-        </div>
-    </div>
+				<div class="col s8">
+					<h1 class="#1565c0 blue-text text-darken-3">About Me</h1>
 
-    <br />
-    <section class="container section" id="Discover">
-        <div class="row">
-            <img class="responsive-img col s4">
+					<img
+						src="https://assets.mycast.io/characters/ranger-smith-387961-normal.jpg?1575752708"
+					/>
 
-            <div class="col s8">
-                <h1 class="#1565c0 blue-text text-darken-3">About Me</h1>
+					<p>
+						My name is Evan, and I really enjoy creating this site it was a
+						labour of love and will continue making it better in the near
+						future.
+					</p>
 
-                <P></P>
+					<h5 class="#1565c0 blue-text text-darken-3">
+						My favorite things I enjoy out of life
+					</h5>
+					<ul>
+						<li>Spending time with cat Sammy</li>
+						<li>Road trips</li>
+						<li>Hiking</li>
+						<li>and the occasional pizza</li>
+					</ul>
+				</div>
+			</div>
 
-                <ul>
-                    <li></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row">
-            <h1 class="#1565c0 blue-text text-darken-3">Contact Info</h1>
-        </div>
-
-    </section>
-    <!---------------------------------------------Tabs Ends--------------------------------------------------->
-    <!----------------------------------------------------Parallax Begins---------------------------------------->
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="https://i.redd.it/w9191s3cj1x01.jpg" alt="Anicent Bristlecone Tree with Mountain range bacground"
-                class="responsive-img" />
-        </div>
-    </div>
-    <!-----------------------------------------------Parallax Ends----------------------------------------------------->
-    <!--------------------------------------------------Footer Begins-------------------------------------------------------------->
-    <footer class="page-footer #1565c0 blue darken-3">
-        <div class="container">
-            <div class="row">
-                <div class="col s12 l6">
-                    <h5 id="About">About Me</h5>
-                    <p>Lorem isum dolor sit amet, consectetur adipiscing elit. Vestibulum
-                        at lacus congue, suscipit elit nec, tincidunt orci.</p>
-                    <p>Lorem isum dolor sit amet, consectetur adipiscing elit. Vestibulum
-                        at lacus congue, suscipit elit nec, tincidunt orci.</p>
-                </div>
-                <div class="col s12 l4 offset-l2">
-                    <h5 id="Connect With Us">Connect With Us</h5>
-                    <ul>
-                        <li><a href="#" class="white-text">Facebook</a></li>
-                        <li><a href="#" class="white-text">Instagram</a></li>
-                        <li><a href="#" class="white-text">Twitter</a></li>
-                        <li><a href="#" class="white-text">Email</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright #1565c0 blue-text text-darken-3 white">
-            <div class="container center-align">&copy; 2021 Ask Ranger Smith</div>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".sidenav").sidenav();
-            $(".materialboxed").materialbox();
-            $(".parallax").parallax();
-            $('.tabs').tabs();
-        });
-    </script>
-    <script src="./index.js"></script>
-</body>
-
+			<div class="row">
+				<h1 class="#1565c0 blue-text text-darken-3">Contact Info</h1>
+				<div>
+					Email:sadeghian.evan@gmail.com Phone Number: (323) 403-6692 Github:
+					https://github.com/Evan05Sadeghian
+				</div>
+			</div>
+		</section>
+		<!---------------------------------------------Tabs Ends--------------------------------------------------->
+		<!----------------------------------------------------Parallax Begins---------------------------------------->
+		<div class="parallax-container">
+			<div class="parallax">
+				<img
+					src="https://i.redd.it/w9191s3cj1x01.jpg"
+					alt="Anicent Bristlecone Tree with Mountain range bacground"
+					class="responsive-img"
+				/>
+			</div>
+		</div>
+		<!-----------------------------------------------Parallax Ends----------------------------------------------------->
+		<!--------------------------------------------------Footer Begins-------------------------------------------------------------->
+		<footer class="page-footer #1565c0 blue darken-3">
+			<div class="container">
+				<div class="row">
+					<div class="col s12 l6">
+						<h5 id="About #1565c0 blue darken-3">About Me</h5>
+						<p>
+							Lorem isum dolor sit amet, consectetur adipiscing elit. Vestibulum
+							at lacus congue, suscipit elit nec, tincidunt orci.
+						</p>
+						<p>
+							Lorem isum dolor sit amet, consectetur adipiscing elit. Vestibulum
+							at lacus congue, suscipit elit nec, tincidunt orci.
+						</p>
+					</div>
+					<div class="col s12 l4 offset-l2">
+						<h5 id="Connect With Us">Connect With Us</h5>
+						<ul>
+							<li><a href="#" class="white-text">Facebook</a></li>
+							<li><a href="#" class="white-text">Instagram</a></li>
+							<li><a href="#" class="white-text">Twitter</a></li>
+							<li><a href="#" class="white-text">Email</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright #1565c0 blue-text text-darken-3 white">
+				<div class="container center-align">&copy; 2021 Ask Ranger Smith</div>
+			</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				$(".sidenav").sidenav();
+				$(".materialboxed").materialbox();
+				$(".parallax").parallax();
+				$(".tabs").tabs();
+			});
+		</script>
+		<script src="./index.js"></script>
+	</body>
 </html>
